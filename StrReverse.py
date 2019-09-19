@@ -5,12 +5,13 @@
 
 import tkinter as tk
 
-
+# Create non resizable window
 window = tk.Tk()
 window.geometry("253x200")
 window.title("StrReverse")
 window.resizable(False, False)
 
+# Short UI information about the program
 label1 = tk.Label(window, text="Write something here\nto receive a reverse image of this:")
 label1.grid(row=0, columnspan=2)
 
